@@ -1,7 +1,7 @@
 # Election-Analysis
-Election analysis for Tom (Module 3, UO Bootcamp) - Python, VSCode
 ## Project Overview
 Tom, from the Colorado Board of Elections tasked us with completing an election audit of the tabulated results for the U.S. Congressional precinct in Colorado. 
+
 We were asked to find:
 1. Total number of votes cast.
 2. Complete list of the candidates who received votes. 
@@ -14,7 +14,7 @@ We were asked to find:
 9. Determine the winner of the election based on popular vote. 
 
 ## Resources
-- Data source: election_results.csv LINK 
+- Data source: [election_results.csv](https://github.com/MeredithTracy/Election-Analysis/blob/main/Resources/election_results.csv)
 - Software used: Python 3.10.0 and Visual Studio Code. 
 
 ## Summary of Results
@@ -54,7 +54,10 @@ County with largest number of votes:
 - Denver county had the largest number of votes cast with 306,055 votes or 82.8%. 
 
 Determine the winner of the election based on popular vote:
-- The winner of the election was Diana DeGette with 73.8% (272,892 votes).
+- The winner of the election was Diana DeGette with 272,892 votes or 73.8%.
+
+![election_results](https://github.com/MeredithTracy/Election-Analysis/blob/main/Resources/Election_Results.png)
+This image shows a snapshot of the text file outcome for the election results.
 
 ## Summary of Results
-
+This analysis process was able to breakdown the data we received quickly and easily. This script could be used for larger and more expansive elections in the future as well. With some manipulation, you could look at the breakdown of the percentage for each candidate looks within each county to see if there were trends within each county. If we had zip codes, we could use that to further breakdown where voter turnout is highest and what areas need support to bring up voter turnout in future elections. This data could be expanded and could be a remarkable tool for the Colorado Board of Elections to use in the future. 
